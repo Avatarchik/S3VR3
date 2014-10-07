@@ -40,17 +40,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialBase.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\TutorialHelloWorld.cpp">
-      <Filter>NonAREL</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_TutorialContentTypes.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialContentTypes.cpp">
       <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TutorialContentTypes.cpp">
-      <Filter>NonAREL</Filter>
     </ClCompile>
     <ClCompile Include="..\src\TutorialTrackingSamples.cpp">
       <Filter>NonAREL</Filter>
@@ -60,9 +54,6 @@
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialTrackingSamples.cpp">
       <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TutorialDynamicModels.cpp">
-      <Filter>NonAREL</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_TutorialDynamicModels.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -79,17 +70,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialInstantTracking.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\TutorialQRCodeReader.cpp">
-      <Filter>NonAREL</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_TutorialQRCodeReader.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialQRCodeReader.cpp">
       <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TutorialDynamicLighting.cpp">
-      <Filter>NonAREL</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_TutorialDynamicLighting.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -97,17 +82,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialDynamicLighting.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\TutorialCustomShading.cpp">
-      <Filter>NonAREL</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_TutorialCustomShading.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialCustomShading.cpp">
       <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TutorialEdgeBasedInitialization.cpp">
-      <Filter>NonAREL</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_TutorialEdgeBasedInitialization.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -116,12 +95,6 @@
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="..\src\TutorialFaceTracking.cpp">
-      <Filter>NonAREL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TutorialAdvancedRendering.cpp">
-      <Filter>NonAREL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\TutorialStereoRendering.cpp">
       <Filter>NonAREL</Filter>
     </ClCompile>
   </ItemGroup>
@@ -167,28 +140,10 @@
     <CustomBuild Include="..\src\TutorialBase.h">
       <Filter>NonAREL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\src\TutorialContentTypes.h">
-      <Filter>NonAREL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\src\TutorialTrackingSamples.h">
       <Filter>NonAREL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\src\TutorialDynamicModels.h">
-      <Filter>NonAREL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\src\TutorialInstantTracking.h">
-      <Filter>NonAREL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\src\TutorialQRCodeReader.h">
-      <Filter>NonAREL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\src\TutorialDynamicLighting.h">
-      <Filter>NonAREL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\src\TutorialCustomShading.h">
-      <Filter>NonAREL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\src\TutorialEdgeBasedInitialization.h">
       <Filter>NonAREL</Filter>
     </CustomBuild>
   </ItemGroup>
@@ -203,16 +158,7 @@
     <ClInclude Include="resource.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\TutorialHelloWorld.h">
-      <Filter>NonAREL</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\TutorialFaceTracking.h">
-      <Filter>NonAREL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\TutorialAdvancedRendering.h">
-      <Filter>NonAREL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\TutorialStereoRendering.h">
       <Filter>NonAREL</Filter>
     </ClInclude>
   </ItemGroup>
