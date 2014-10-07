@@ -25,9 +25,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialBaseAREL.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\TutorialBaseAREL.cpp">
-      <Filter>AREL</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\Menu.cpp">
       <Filter>MainWindow</Filter>
     </ClCompile>
@@ -117,9 +114,6 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="AREL">
-      <UniqueIdentifier>{a847ef87-b66c-4450-922a-759a966aebb1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="NonAREL">
       <UniqueIdentifier>{90ecde87-7147-4d25-acf7-2dd84cea96b0}</UniqueIdentifier>
     </Filter>
@@ -130,9 +124,6 @@
     </CustomBuild>
     <CustomBuild Include="..\gui\MainWindow.ui">
       <Filter>MainWindow</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\src\TutorialBaseAREL.h">
-      <Filter>AREL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\src\Menu.h">
       <Filter>MainWindow</Filter>

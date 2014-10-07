@@ -152,7 +152,6 @@
     <ClCompile Include="..\src\TutorialTrackingSamples.cpp" />
     <ClCompile Include="..\src\TutorialInstantTracking.cpp" />
     <ClCompile Include="..\src\TutorialBase.cpp" />
-    <ClCompile Include="..\src\TutorialBaseAREL.cpp" />
     <ClCompile Include="..\src\MainWindow.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Menu.cpp" />
@@ -228,18 +227,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_TutorialTrackingSamples.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\src\TutorialBaseAREL.h">
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing TutorialBaseAREL.h...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -D_USE_MATH_DEFINES -DAS_USE_METAIOSDKDLL -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -DQT_WEBKIT_LIB -DQT_NETWORK_LIB -DQT_PHONON_LIB  "-IC:\Program Files (x86)\Visual Leak Detector\include" "-I.\..\..\..\metaioSDK\include" "-I.\..\..\..\ExternLibs\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtOpenGL" "-I$(QTDIR)\include" "-I.\..\shared" "-I$(QTDIR)\include\ActiveQt" "-I.\debug" "-I.\..\..\..\mkspecs\default" "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\phonon"</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing TutorialBaseAREL.h...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -D_USE_MATH_DEFINES -DAS_USE_METAIOSDKDLL -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -DNDEBUG -DQT_WEBKIT_LIB -DQT_NETWORK_LIB -DQT_PHONON_LIB  "-I.\..\..\..\metaioSDK\include" "-I.\..\..\..\ExternLibs\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtOpenGL" "-I$(QTDIR)\include" "-I.\..\shared" "-I$(QTDIR)\include\ActiveQt" "-I.\debug" "-I.\..\..\..\mkspecs\default" "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\phonon"</Command>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\src\MainWindow.h">

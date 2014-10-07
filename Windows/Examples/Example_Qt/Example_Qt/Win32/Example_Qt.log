@@ -1,8 +1,6 @@
-﻿Der Buildvorgang wurde am 07.10.2014 16:56:02 gestartet.
+﻿Der Buildvorgang wurde am 07.10.2014 16:59:51 gestartet.
      1>Projekt "I:\Documents\S3VR3\Windows\Examples\Example_Qt\Example_Qt\Example_Qt.vcxproj" auf Knoten "2", Build Ziel(e).
      1>CustomBuild:
-         Moc'ing TutorialBaseAREL.h...
-         Das System kann den angegebenen Pfad nicht finden.
          Moc'ing MainWindow.h...
          Das System kann den angegebenen Pfad nicht finden.
          Uic'ing ..\gui\MainWindow.ui...
@@ -20,4 +18,4 @@
 
 Fehler beim Buildvorgang.
 
-Verstrichene Zeit 00:00:00.20
+Verstrichene Zeit 00:00:00.06
