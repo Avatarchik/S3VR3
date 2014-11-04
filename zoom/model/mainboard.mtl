@@ -9,8 +9,8 @@ Ks 0.449020 0.449020 0.449020
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\Chris\Documents\3dmodels\3ds\P4SBA-MB.JPG
-map_Bump C:\\Users\\Chris\\Documents\\3dmodels\\3ds\\P4SBA-MB.JPG
+map_Kd D:\\Programs\\metaio Creator 3.5.2\\projects\\S3VR3\\zoom\\model\\P4SBA-MB.JPG
+map_Bump D:\\Programs\\metaio Creator 3.5.2\\projects\\S3VR3\\zoom\\model\\P4SBA-MB.JPG
 
 newmtl Material_#147
 Ns 96.078431
@@ -65,7 +65,7 @@ Ks 0.449020 0.449020 0.449020
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\Chris\Documents\3dmodels\3ds\MB-PS-2.PNG
+map_Kd D:\\Programs\\metaio Creator 3.5.2\\projects\\S3VR3\\zoom\\model\\MB-PS-2.PNG
 
 newmtl Material_#155
 Ns 96.078431
